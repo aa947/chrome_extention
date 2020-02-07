@@ -1,0 +1,11 @@
+
+    {
+    "manifest_version":2,
+    "name":"M&W_labs",
+    "version":"2.0",
+    "content_scripts":[{  "matches":["<all_urls>"], "js":["content.js"]  }],
+    "background":{ "scripts":["backgrounds.js"] },
+    "browser_action":{ "default_icon":{"128":"icon128.png"}, "default_popup":"MW/reminders.html", "default_title":"MW-labs"  },
+    "icons":{"128":"icon128.png"}
+    
+}
